@@ -1,4 +1,5 @@
 Team members: Hanyi Zhang, Kunpeng Hao, Zhonghao Lu
+
 I. Results
 1.	First approach, weights
 (1). {album : 0.25; singer and genre : 0.75} accuracy = 0.83116
@@ -23,7 +24,7 @@ II. Algorithm
 (1). Find relationship between items and singer, album, genres 
 (2). Calculate scores for test data according to the scores which have same singer, album or genres from the training data 
 (3). Choose top three scores and set them to be recommended
-  2.  predict scores by other users¡¯data
+  2.  predict scores by other usersÂ¡Â¯data
      (1). Matrix factorization for training data
      (2). Predict test scores
 3.  ensemble all the results
